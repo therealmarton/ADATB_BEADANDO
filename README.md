@@ -1,2 +1,3 @@
 # ADATB_BEADANDO
 AutosiskolaDB
+készítő: MARTON ÁDÁM-RHOX91
