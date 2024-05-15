@@ -38,7 +38,7 @@ FROM Tanfolyam t
 LEFT JOIN Foglalas f ON t.TanfolyamID = f.TanfolyamID
 LEFT JOIN Oktato  o ON f.OktatoID = o.OktatoID
 GROUP BY ROLLUP(t.Ttipus, o.Nev)
---6. 
+--6. A VW Passat B5-ön oktató kollégák elérhetősége (ha van hozzájuk foglalva): (beágyazott selectekkel)
 SELECT Nev, Telefonszam, Email
 FROM Oktato
 WHERE 
